@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "mis-skills",
+  "description": "Mis skills y plugins para Claude Code",
+  "owner": { "name": "raulrubioaguilar-create" },
+  "plugins": [
+    {
+      "name": "mis-skills",
+      "description": "Todas mis skills personales en un solo plugin",
+      "source": "./plugins/mis-skills"
+    },
+    {
+      "name": "ponytail",
+      "description": "Modo programador senior vago (DietrichGebert/ponytail)",
+      "source": { "source": "github", "repo": "DietrichGebert/ponytail" }
+    }
+  ]
+}
